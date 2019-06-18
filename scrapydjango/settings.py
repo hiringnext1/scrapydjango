@@ -24,7 +24,7 @@ SECRET_KEY = 'scf4)=fde*6h)o!ln3#--z-t#@8$-4xq1aa%_x_n_%0xy9m_+-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['scrapyindeed.herokuapp.com', '*']
 
 # Application definition
 
