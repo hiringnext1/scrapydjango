@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MongoConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="authenticationDatabase" value="indeed_jobs" />
+          <option name="authenticationMechanism" value="SCRAM-SHA-1" />
+          <option name="label" value="indeed Jobs" />
+          <option name="password" value="mypassword" />
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:27017" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+          <option name="userDatabase" value="indeed_jobs" />
+          <option name="username" value="myuser" />
+        </ServerConfiguration>
+      </list>
+    </option>
+    <option name="shellPath" value="$PROJECT_DIR$/../../../mongodata" />
+  </component>
+</project>

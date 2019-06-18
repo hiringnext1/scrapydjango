@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="{% url 'homepage' %}">Hiring Next</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'homepage' %}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+{% endblock %}
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="row">
+                <div class="col-sm-8">
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title text-primary"><strong>{{ object.title }}</strong></h3>
+                            <p class="card-text">{{ object.company }}</p>
+                            <p class="card-text">{{ object.city }}</p>
+{#                            <p class="card-text">City: {{ object.experience }}</p>#}
+                            <p class="card-text">Salary: {{ object.salary }}</p>
+                            <p class="card-text"><span class="text-primary"> <strong> Job Description:</strong></span> {{ object.job_description | safe}}</p>
+                            <a href="{{ object.job_url }}" class="btn btn-lg btn-primary">Apply</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+{% endblock %}

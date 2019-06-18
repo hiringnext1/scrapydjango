@@ -1,0 +1,469 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap_pagination %}
+
+
+{% block content %}
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+    <header id="header-container" class="fullwidth">
+
+	<!-- Header -->
+	<div id="header">
+		<div class="container">
+
+			<!-- Left Side Content -->
+			<div class="left-side">
+
+				<!-- Logo -->
+				<div id="logo">
+					<a href="{% url 'homepage' %}">hiring next</a>
+				</div>
+
+				<!-- Main Navigation -->
+				<nav id="navigation">
+					<ul id="responsive">
+
+						<li><a href="#" class="current">Home</a>
+							<ul class="dropdown-nav">
+								<li><a href="index-1.html">Home 1</a></li>
+								<li><a href="index-2.html">Home 2</a></li>
+								<li><a href="index-3.html">Home 3</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#">Find Work</a>
+							<ul class="dropdown-nav">
+								<li><a href="{% url 'joblist' %}">Browse Jobs</a>
+									<ul class="dropdown-nav">
+										<li><a href="jobs-list-layout-full-page-map.html">Full Page List + Map</a></li>
+										<li><a href="jobs-grid-layout-full-page-map.html">Full Page Grid + Map</a></li>
+										<li><a href="jobs-grid-layout-full-page.html">Full Page Grid</a></li>
+										<li><a href="jobs-list-layout-1.html">List Layout 1</a></li>
+										<li><a href="jobs-list-layout-2.html">List Layout 2</a></li>
+										<li><a href="jobs-grid-layout.html">Grid Layout</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Browse Tasks</a>
+									<ul class="dropdown-nav">
+										<li><a href="tasks-list-layout-1.html">List Layout 1</a></li>
+										<li><a href="tasks-list-layout-2.html">List Layout 2</a></li>
+										<li><a href="tasks-grid-layout.html">Grid Layout</a></li>
+										<li><a href="tasks-grid-layout-full-page.html">Full Page Grid</a></li>
+									</ul>
+								</li>
+								<li><a href="browse-companies.html">Browse Companies</a></li>
+								<li><a href="single-job-page.html">Job Page</a></li>
+								<li><a href="single-task-page.html">Task Page</a></li>
+								<li><a href="single-company-profile.html">Company Profile</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#">For Employers</a>
+							<ul class="dropdown-nav">
+								<li><a href="#">Find a Freelancer</a>
+									<ul class="dropdown-nav">
+										<li><a href="freelancers-grid-layout-full-page.html">Full Page Grid</a></li>
+										<li><a href="freelancers-grid-layout.html">Grid Layout</a></li>
+										<li><a href="freelancers-list-layout-1.html">List Layout 1</a></li>
+										<li><a href="freelancers-list-layout-2.html">List Layout 2</a></li>
+									</ul>
+								</li>
+								<li><a href="single-freelancer-profile.html">Freelancer Profile</a></li>
+								<li><a href="dashboard-post-a-job.html">Post a Job</a></li>
+								<li><a href="dashboard-post-a-task.html">Post a Task</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#">Dashboard</a>
+							<ul class="dropdown-nav">
+								<li><a href="dashboard.html">Dashboard</a></li>
+								<li><a href="dashboard-messages.html">Messages</a></li>
+								<li><a href="dashboard-bookmarks.html">Bookmarks</a></li>
+								<li><a href="dashboard-reviews.html">Reviews</a></li>
+								<li><a href="dashboard-manage-jobs.html">Jobs</a>
+									<ul class="dropdown-nav">
+										<li><a href="dashboard-manage-jobs.html">Manage Jobs</a></li>
+										<li><a href="dashboard-manage-candidates.html">Manage Candidates</a></li>
+										<li><a href="dashboard-post-a-job.html">Post a Job</a></li>
+									</ul>
+								</li>
+								<li><a href="dashboard-manage-tasks.html">Tasks</a>
+									<ul class="dropdown-nav">
+										<li><a href="dashboard-manage-tasks.html">Manage Tasks</a></li>
+										<li><a href="dashboard-manage-bidders.html">Manage Bidders</a></li>
+										<li><a href="dashboard-my-active-bids.html">My Active Bids</a></li>
+										<li><a href="dashboard-post-a-task.html">Post a Task</a></li>
+									</ul>
+								</li>
+								<li><a href="dashboard-settings.html">Settings</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#">Pages</a>
+							<ul class="dropdown-nav">
+								<li><a href="pages-blog.html">Blog</a></li>
+								<li><a href="pages-pricing-plans.html">Pricing Plans</a></li>
+								<li><a href="pages-checkout-page.html">Checkout Page</a></li>
+								<li><a href="pages-invoice-template.html">Invoice Template</a></li>
+								<li><a href="pages-user-interface-elements.html">User Interface Elements</a></li>
+								<li><a href="pages-icons-cheatsheet.html">Icons Cheatsheet</a></li>
+								<li><a href="pages-login.html">Login & Register</a></li>
+								<li><a href="pages-404.html">404 Page</a></li>
+								<li><a href="pages-contact.html">Contact</a></li>
+							</ul>
+						</li>
+
+					</ul>
+				</nav>
+				<div class="clearfix"></div>
+				<!-- Main Navigation / End -->
+
+			</div>
+			<!-- Left Side Content / End -->
+
+
+			<!-- Right Side Content / End -->
+			<div class="right-side">
+
+				<!--  User Notifications -->
+				<div class="header-widget hide-on-mobile">
+
+					<!-- Notifications -->
+					<div class="header-notifications">
+
+						<!-- Trigger -->
+						<div class="header-notifications-trigger">
+							<a href="#"><i class="icon-feather-bell"></i><span>4</span></a>
+						</div>
+
+						<!-- Dropdown -->
+						<div class="header-notifications-dropdown">
+
+							<div class="header-notifications-headline">
+								<h4>Notifications</h4>
+								<button class="mark-as-read ripple-effect-dark" title="Mark all as read" data-tippy-placement="left">
+									<i class="icon-feather-check-square"></i>
+								</button>
+							</div>
+
+							<div class="header-notifications-content">
+								<div class="header-notifications-scroll" data-simplebar>
+									<ul>
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-manage-candidates.html">
+												<span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+												<span class="notification-text">
+													<strong>Michael Shannah</strong> applied for a job <span class="color">Full Stack Software Engineer</span>
+												</span>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li>
+											<a href="dashboard-manage-bidders.html">
+												<span class="notification-icon"><i class=" icon-material-outline-gavel"></i></span>
+												<span class="notification-text">
+													<strong>Gilbert Allanis</strong> placed a bid on your <span class="color">iOS App Development</span> project
+												</span>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li>
+											<a href="dashboard-manage-jobs.html">
+												<span class="notification-icon"><i class="icon-material-outline-autorenew"></i></span>
+												<span class="notification-text">
+													Your job listing <span class="color">Full Stack PHP Developer</span> is expiring.
+												</span>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li>
+											<a href="dashboard-manage-candidates.html">
+												<span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+												<span class="notification-text">
+													<strong>Sindy Forrest</strong> applied for a job <span class="color">Full Stack Software Engineer</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- Messages -->
+					<div class="header-notifications">
+						<div class="header-notifications-trigger">
+							<a href="#"><i class="icon-feather-mail"></i><span>3</span></a>
+						</div>
+
+						<!-- Dropdown -->
+						<div class="header-notifications-dropdown">
+
+							<div class="header-notifications-headline">
+								<h4>Messages</h4>
+								<button class="mark-as-read ripple-effect-dark" title="Mark all as read" data-tippy-placement="left">
+									<i class="icon-feather-check-square"></i>
+								</button>
+							</div>
+
+							<div class="header-notifications-content">
+								<div class="header-notifications-scroll" data-simplebar>
+									<ul>
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-messages.html">
+												<span class="notification-avatar status-online"><img src="images/user-avatar-small-03.jpg" alt=""></span>
+												<div class="notification-text">
+													<strong>David Peterson</strong>
+													<p class="notification-msg-text">Thanks for reaching out. I'm quite busy right now on many...</p>
+													<span class="color">4 hours ago</span>
+												</div>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-messages.html">
+												<span class="notification-avatar status-offline"><img src="images/user-avatar-small-02.jpg" alt=""></span>
+												<div class="notification-text">
+													<strong>Sindy Forest</strong>
+													<p class="notification-msg-text">Hi Tom! Hate to break it to you, but I'm actually on vacation until...</p>
+													<span class="color">Yesterday</span>
+												</div>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-messages.html">
+												<span class="notification-avatar status-online"><img src="images/user-avatar-placeholder.png" alt=""></span>
+												<div class="notification-text">
+													<strong>Marcin Kowalski</strong>
+													<p class="notification-msg-text">I received payment. Thanks for cooperation!</p>
+													<span class="color">Yesterday</span>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="dashboard-messages.html" class="header-notifications-button ripple-effect button-sliding-icon">View All Messages<i class="icon-material-outline-arrow-right-alt"></i></a>
+						</div>
+					</div>
+
+				</div>
+				<!--  User Notifications / End -->
+
+				<!-- User Menu -->
+				<div class="header-widget">
+
+					<!-- Messages -->
+					<div class="header-notifications user-menu">
+						<div class="header-notifications-trigger">
+							<a href="#"><div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div></a>
+						</div>
+
+						<!-- Dropdown -->
+						<div class="header-notifications-dropdown">
+
+							<!-- User Status -->
+							<div class="user-status">
+
+								<!-- User Name / Avatar -->
+								<div class="user-details">
+									<div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div>
+									<div class="user-name">
+										Tom Smith <span>Freelancer</span>
+									</div>
+								</div>
+
+								<!-- User Status Switcher -->
+								<div class="status-switch" id="snackbar-user-status">
+									<label class="user-online current-status">Online</label>
+									<label class="user-invisible">Invisible</label>
+									<!-- Status Indicator -->
+									<span class="status-indicator" aria-hidden="true"></span>
+								</div>
+						</div>
+
+						<ul class="user-menu-small-nav">
+							<li><a href="dashboard.html"><i class="icon-material-outline-dashboard"></i> Dashboard</a></li>
+							<li><a href="dashboard-settings.html"><i class="icon-material-outline-settings"></i> Settings</a></li>
+							<li><a href="index-logged-out.html"><i class="icon-material-outline-power-settings-new"></i> Logout</a></li>
+						</ul>
+
+						</div>
+					</div>
+
+				</div>
+				<!-- User Menu / End -->
+
+				<!-- Mobile Navigation Button -->
+				<span class="mmenu-trigger">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</span>
+
+			</div>
+			<!-- Right Side Content / End -->
+
+		</div>
+	</div>
+	<!-- Header / End -->
+
+</header>
+
+        <!-- Header Container
+        ================================================== -->
+
+        <div class="clearfix"></div>
+        <!-- Header Container / End -->
+
+        <!-- Spacer -->
+        <div class="margin-top-90"></div>
+        <!-- Spacer / End-->
+
+        <!-- Page Content
+        ================================================== -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4">
+                    <div class="sidebar-container">
+
+                        <div class="sidebar-widget">
+
+                            <form method="get">
+
+
+
+                            </form>
+                        </div>
+
+                        <!-- Tags -->
+
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8 content-left-offset">
+
+                    <h3 class="page-title">All Active Jobs</h3>
+
+                    <div class="notify-box margin-top-15">
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox"><span class="switch-button"></span><span
+                                    class="switch-text">Turn on email alerts for this search</span></label>
+                        </div>
+
+                        <div class="sort-by">
+                            <span>Sort by: <strong>Freshness</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="listings-container margin-top-35">
+
+
+                        {% for job in indeedjobs %}
+
+                            <!-- Job Listing -->
+                            <a href="{{ job.get_absolute_url }}" class="job-listing">
+
+                                <!-- Job Listing Details -->
+                                <div class="job-listing-details">
+                                    <!-- Logo -->
+                                    <div class="job-listing-company-logo">
+                                        <img src="{% static 'images/company-logo-05.png' %}" alt="">
+                                    </div>
+
+                                    <!-- Details -->
+                                    <div class="job-listing-description">
+                                        <h4 class="job-listing-company">{{ job.company }} <span
+                                                class="verified-badge"
+                                                title="Verified Employer"
+                                                data-tippy-placement="top"></span>
+                                        </h4>
+                                        <h3 class="job-listing-title">{{ job.title }}</h3>
+                                        <p class="job-listing-text"></p>
+                                        <div class="tags-container margin-top-8">
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Bookmark -->
+                                    <span class="bookmark-icon"></span>
+                                </div>
+
+                                <!-- Job Listing Footer -->
+                                <div class="job-listing-footer">
+                                    <ul>
+                                        <li><i class="icon-material-outline-location-on"></i> {{ job.city }}
+                                        </li>
+                                        <li>Salary:<i
+                                                class="icon-line-awesome-rupee"></i>{{ job.salary }}
+                                        </li>
+                                            <li class="icon-material-outline-access-time">just posted
+                                        </li>
+                                    </ul>
+                                </div>
+                            </a>
+
+                        {% endfor %}
+
+
+                        <!-- Pagination -->
+
+
+                        <div class="col-md-12">
+
+
+                            <!-- Pagination -->
+                            <div class="pagination-container margin-top-30 margin-bottom-60">
+                                <nav class="pagination">
+                                    <ul>
+
+                                        {% bootstrap_paginate page_obj %}
+
+{#                                        {% if page_obj.has_previous %}#}
+{#                                            <li class="pagination-arrow"><a#}
+{#                                                    href="?page={{ page_obj.previous_page_number }}"><i#}
+{#                                                    class="icon-material-outline-keyboard-arrow-left"></i></a>#}
+{#                                            </li>#}
+{#                                        {% endif %}#}
+{##}
+{#                                        {% for i in paginator.page_range %}#}
+{#                                            <li {% if page_obj.number == i %}#}
+{#                                            {% endif %}>#}
+{#                                                <a href="?page={{ i }}">{{ i }}</a>#}
+{#                                            </li>#}
+{#                                        {% endfor %}#}
+{##}
+{#                                        {% if page_obj.has_next %}#}
+{#                                            <li class="pagination-arrow"><a#}
+{#                                                    href="?page={{ page_obj.next_page_number }}"><i#}
+{#                                                    class="icon-material-outline-keyboard-arrow-right"></i></a>#}
+{#                                            </li>#}
+{#                                        {% endif %}#}
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <!-- Pagination / End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
