@@ -46,11 +46,13 @@
                     <div class="card border-default">
                         <div class="card-body">
                             <h4 class="card-title text-primary">Title:{{ job.title }}</h4>
-                            <p class="card-text">Company Name: {{ job.company }}</p>
-                            <p class="card-text">City: {{ job.city }}</p>
+                            <p class="card-text">Company Name: {{ job.company }}, {{ job.city }}</p>
+
 {#                            <p class="card-text">Experience: {{ job.experience }}</p>#}
                             <p class="card-text">Salary: {{ job.salary }}</p>
-                            <p class="card-text"> Posted on:{{ job.date_posted | safe }}</p>
+                            <p class="card-text"> Posted on:{{ job.date_posted | safe | cut:"-" }}</p>
+                            <p class="card-text">
+                                {{ job.job_description | striptags | truncatewords:"30"| cut:"[" | cut:"]" | cut:"*" | cut:"'" | cut:"Job Summary" | cut:"\n"| cut:"-"}}</p>
                             <a target="_blank" href="{{ job.get_absolute_url }}" class="btn btn-small btn-primary">View More</a>
                         </div>
                     </div>

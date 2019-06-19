@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeListView.as_view(), name='homepage'),
     path('job/', IndexView.as_view(), name='joblist'),
-    path('job/<pk>/', IndexDetailView.as_view(), name='detail'),
+    path('job/<slug>/', IndexDetailView.as_view(), name='detail'),
 
     path(r'tinymce/', include('tinymce.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

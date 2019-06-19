@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20fe15a-34c8-4964-8648-0117b53fd2de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scrapydjango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scrapydjango.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampledjango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampledjango/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapydjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapydjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapydjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapydjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,26 +78,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sampledjango/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrapydjango/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="252">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="414">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -102,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapydjango/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="234">
               <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="e#228#237#0" expanded="true" />
@@ -114,20 +111,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="52" column="85" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
+            <state relative-caret-position="788">
+              <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py">
+        <entry file="file://$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1602">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
-              <folding>
-                <element signature="e#24#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="237">
+              <caret line="40" column="136" selection-start-line="40" selection-start-column="126" selection-end-line="40" selection-end-column="136" />
             </state>
           </provider>
         </entry>
@@ -135,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="144">
               <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -144,23 +138,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapydjango/urls.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="169">
+              <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
               <folding>
-                <element signature="e#636#668#0" expanded="true" />
+                <element signature="e#24#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/scrapydjango/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="504">
+              <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+              <folding>
+                <element signature="e#636#668#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,24 +201,24 @@
         <option value="$PROJECT_DIR$/templates/job_detail.html" />
         <option value="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/items.py" />
         <option value="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/pipelines.py" />
-        <option value="$PROJECT_DIR$/scrapydjango/urls.py" />
         <option value="$PROJECT_DIR$/templates/index-2.html" />
         <option value="$PROJECT_DIR$/templates/jobs-list-layout-2.html" />
         <option value="$PROJECT_DIR$/templates/single-job-page.html" />
         <option value="$PROJECT_DIR$/sampledjango/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/settings.py" />
         <option value="$PROJECT_DIR$/sampledjango/views.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" />
         <option value="$PROJECT_DIR$/sampledjango/admin.py" />
-        <option value="$PROJECT_DIR$/sampledjango/models.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/runtime" />
         <option value="$PROJECT_DIR$/scrapydjango/wsgi.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/scrapydjango/settings.py" />
+        <option value="$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html" />
+        <option value="$PROJECT_DIR$/scrapydjango/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" />
+        <option value="$PROJECT_DIR$/sampledjango/models.py" />
       </list>
     </option>
   </component>
@@ -237,23 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="scrapydjango_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapydjango_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapydjango_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapydjango_test" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapydjango" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,11 +249,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/unused" />
+      <recent name="$PROJECT_DIR$/templates/sampledjango" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/sampledjango" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,22 +325,24 @@
       <workItem from="1560785828283" duration="3686000" />
       <workItem from="1560874951842" duration="1170000" />
       <workItem from="1560880271640" duration="1634000" />
-      <workItem from="1560881967633" duration="2101000" />
+      <workItem from="1560881967633" duration="3408000" />
+      <workItem from="1560962669604" duration="6165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79486000" />
+    <option name="totallyTimeSpent" value="86958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14166667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32561985" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32561985" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,7 +350,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" weight="0.4033058" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" visible="true" weight="0.4033058" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32838285" />
@@ -462,16 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" selection-start-line="18" selection-end-line="1302" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/jobs-list-layout-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -479,25 +454,6 @@
           <folding>
             <element signature="e#147#11969#0#HTML" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="327" selection-end-column="9" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/single-job-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -547,20 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="76" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampledjango/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -568,53 +510,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/scrapydjango/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="85" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
+        <state relative-caret-position="522">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1602">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#24#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapydjango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#636#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="414">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapydjango/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="234">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="e#228#237#0" expanded="true" />
@@ -622,17 +534,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="144">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapydjango/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/single-job-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="-90">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="40" column="136" selection-start-line="40" selection-start-column="126" selection-end-line="40" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2646">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapydjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampledjango/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+          <folding>
+            <element signature="e#24#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

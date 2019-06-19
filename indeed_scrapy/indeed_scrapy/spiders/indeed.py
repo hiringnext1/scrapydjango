@@ -55,13 +55,16 @@ class IndeedSpider(Spider):
                                                          '"jobsearch-InlineCompanyRating")]/div/text()').extract()[0]
 
         # Location
-        if response.xpath('//*[contains(@class, "jobsearch-InlineCompanyRating")]/div/text()').extract()[2] is not None:
+        if response.xpath('//*[contains(@class, "jobsearch-InlineCompanyRating")]/div/text()').extract()[0] is '-':
             indeedscrapyitem['city'] = \
-                response.xpath('//*[contains(@class, "jobsearch-InlineCompanyRating")]/div/text()').extract()[2]
+                response.xpath('//*[contains(@class, "jobsearch-InlineCompanyRating")]/div/text()').extract()[1]
+
+        elif response.xpath('//*[contains(@class, "jobsearch-InlineCompanyRating")]/div/text()').extract()[0] == indeedscrapyitem['company']:
+            indeedscrapyitem['city'] = response.xpath('//*[contains(@class, "jobsearch-InlineCompanyRating")]/div/text()').extract()[2]
 
         else:
             indeedscrapyitem['city'] = \
-                response.xpath('//*[contains(@class, "jobsearch-InlineCompanyRating")]/div/text()').extract()[1]
+                response.xpath('//*[contains(@class, "jobsearch-InlineCompanyRating")]/div/text()').extract()[0]
 
         # Salary
         if response.xpath(
@@ -94,37 +97,3 @@ def clean_job_string(job_string):
     job_string = job_string.replace(' ', '+')
     return job_string
 
-#
-#         # # Experience
-#         #
-#         # if response.xpath('//span[contains(@class, "jobsearch-JobMetadataHeader-iconLabel")]/text()').extract()[2] is not None:
-#         #     indeedscrapyitem['experience'] = response.xpath('//span[contains(@class, '
-#         #                                                     '"jobsearch-JobMetadataHeader-iconLabel")]/text('
-#         #                                                     ')').extract()[2]
-#         #
-#         # else:
-#         #     indeedscrapyitem['experience'] = 'Not Mention'
-#
-#         # if not company:
-#         #     company = "This job offer is not displaying the company."
-#         # company_rating = response.xpath('//meta[@itemprop="ratingValue"]/@content').extract_first()
-#         # if not company_rating:
-#         #     company_rating = 'This company does not have a rating'
-#         # else:
-#         #     company_rating = round(float(company_rating), 4)
-#
-#         # city = response.xpath('//*[contains(@class, "jobsearch-InlineCompanyRating")]/div/text()').extract()[2]
-#
-#
-#         yield indeedscrapyitem
-#
-#
-# # Helper functions
-#
-# # Cleans the job string passed as an argument
-#
-#
-# def clean_job_string(job_string):
-#     job_string = job_string.strip()
-#     job_string = job_string.replace(' ', '+')
-#     return job_string

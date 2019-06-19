@@ -37,7 +37,8 @@
                             <p class="card-text">{{ object.city }}</p>
 {#                            <p class="card-text">City: {{ object.experience }}</p>#}
                             <p class="card-text">Salary: {{ object.salary }}</p>
-                            <p class="card-text"><span class="text-primary"> <strong> Job Description:</strong></span> {{ object.job_description | safe}}</p>
+                            <p class="card-text"><span class="text-primary"> <strong> Job Description:</strong></span>
+                                {{ object.job_description | safe  | cut:"[" | cut:"]" | cut:"*" | cut:"'" | cut:"Job Summary" | cut:"\n"}}</p>
                             <a href="{{ object.job_url }}" class="btn btn-lg btn-primary">Apply</a>
                         </div>
                     </div>
