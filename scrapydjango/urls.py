@@ -17,14 +17,14 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
-from sampledjango.views import IndexView, IndexDetailView, HomeListView
+from sampledjango.views import IndexView, IndexDetailView, HomeListView, TestListView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', HomeListView.as_view(), name='homepage'),
-    path('job/', IndexView.as_view(), name='joblist'),
-    path('job/<slug>/', IndexDetailView.as_view(), name='detail'),
+                  path('admin/', admin.site.urls),
+                  path('', HomeListView.as_view(), name='homepage'),
+                  path('test/', TestListView.as_view(), name='test_page'),
+                  path('job/', IndexView.as_view(), name='joblist'),
+                  path('job/<slug>/', IndexDetailView.as_view(), name='detail'),
 
-    path(r'tinymce/', include('tinymce.urls')),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
+                  path(r'tinymce/', include('tinymce.urls')),
+              ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

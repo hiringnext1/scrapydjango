@@ -1,0 +1,2 @@
+Requirement already satisfied: elasticsearch in ./venv/lib/python3.7/site-packages (7.0.2)
+Requirement already satisfied: urllib3>=1.21.1 in ./venv/lib/python3.7/site-packages (from elasticsearch) (1.25.3)

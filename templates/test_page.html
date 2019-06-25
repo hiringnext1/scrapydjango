@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load bootstrap_pagination %}
+{% load widget_tweaks %}
+
+
+{% block title %}
+
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="{% url 'homepage' %}">Hiring Next</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'homepage' %}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+{% endblock %}
+{% block content %}
+
+    <div class="jumbotron">
+
+        <form class="form-inline my-2 my-lg-0" method="get">
+          {% render_field filter.form.title class="form-control" placeholder="Job Title" %}
+
+
+          {% render_field filter.form.city class="form-control" placeholder="Location"%}
+
+
+
+
+{#            <input class="form-control mr-sm-2" type="text" placeholder="Job Title" aria-label="Search"  name='q' value='{{ request.GET.q }}'>#}
+{#            <input class="form-control mr-sm-2" type="search" placeholder="Location" aria-label="Search">#}
+
+
+            <button class="btn btn-outline-primary btn-sm my-2 my-sm-0" type="submit">Search</button>
+        </form>
+{#                <input class="form-control mr-sm-2" type="text" placeholder="Job Title" aria-label="Search"  name='q' value='{{ request.GET.q }}'>#}
+{#                <input class="form-control mr-sm-2" type="search" placeholder="Location" aria-label="Search">#}
+{#                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>#}
+
+        <br>
+        <p>Total Job Posted: <span class="text-primary">{{ total_jobs.count }}</span></p>
+
+    </div>
+
+    <div class="container-fluid">
+
+            {% for job in indeed_test %}
+                <div class="col-md-8" style="margin-bottom: 20px">
+                    <div class="card border-default">
+                        <div class="card-body">
+                            <h4 class="card-title text-primary">Title:{{ job.title }}</h4>
+                            <p class="card-text">Company Name: {{ job.company }}, {{ job.city }}</p>
+
+{#                            <p class="card-text">Experience: {{ job.experience }}</p>#}
+                            <p class="card-text">Salary: {{ job.salary }}</p>
+                            <p class="card-text"> Posted on:{{ job.date_posted | safe | cut:"-" }}</p>
+                            <p class="card-text">
+                                {{ job.job_description | striptags | truncatewords:"30"| cut:"[" | cut:"]" | cut:"*" | cut:"'" | cut:"Job Summary" | cut:"\n"| cut:"-"}}</p>
+                            <a target="_blank" href="{{ job.get_absolute_url }}" class="btn btn-small btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+
+
+
+
+    {% bootstrap_paginate page_obj range=10 show_prev_next="false" show_first_last="true" %}
+
+
+{% endblock %}
