@@ -13,7 +13,7 @@ from .models import IndeedJobs
 
 class HomeListView(FilterView):
     model = IndeedJobs
-    template_name = 'index.html'
+    template_name = 'new_theme/index.html'
     filterset_class = JobFilter
     context_object_name = 'indeed'
     paginate_by = 20
@@ -29,9 +29,10 @@ class HomeListView(FilterView):
         )
         return context
 
+
 class IndexView(ListView):
     model = IndeedJobs
-    template_name = 'jobs-list-layout-2.html'
+    template_name = 'sampledjango/indeedjobs_list.html'
     context_object_name = 'indeedjobs'
     paginate_by = 20
     queryset = IndeedJobs.objects.all()

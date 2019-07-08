@@ -14,7 +14,9 @@ class IndeedSpider(Spider):
         super(IndeedSpider, self).__init__(*args, **kwargs)
 
         job = clean_job_string(job)
-        self.start_urls = [f'https://www.indeed.co.in/jobs?q=&l=Gujarat&sort=date']
+        self.start_urls = [f'https://www.indeed.co.in/jobs?q=&l=Gujarat&sort=date',
+                           f'https://www.indeed.co.in/jobs?q=&l=Maharashtra',
+                           ]
 
     def parse(self, response):
 

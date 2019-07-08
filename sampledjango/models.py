@@ -13,7 +13,7 @@ class IndeedJobs(models.Model):
     # experience = models.CharField(max_length=100, null=True, blank=True)
     job_description = HTMLField(null=True, blank=True)
     date_posted = models.CharField(max_length=200, null=True, blank=True)
-    job_url = models.URLField(max_length=1000, null=True, blank=True)
+    job_url = models.URLField(max_length=1000, unique=True, null=True, blank=True)
     pub_date = models.DateTimeField(null=True, auto_created=True, auto_now_add=True)
 
     class Meta:
