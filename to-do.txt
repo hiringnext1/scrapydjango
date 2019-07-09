@@ -1,0 +1,1 @@
+Activate Search bar using Django-filters
