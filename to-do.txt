@@ -1,1 +1,37 @@
+Improvement / Changes / Adding in Templates: 
+
 Activate Search bar using Django-filters
+Add Django Tags.
+Jobs by Location
+Jobs by Categories 
+Auto Delete 30 days old job postings. 
+Active links in Footer.
+Active Search in Job list page. by Job Title & location only. 
+Auto days save in Date Posted jobs.
+Pagination improvement in Job Lists.
+Active newsletter App.
+
+In Job Detail Page: 
+    Active company rating, 
+    Create Company Link Page. 
+    Create Similar Jobs by their similar job title.
+    Active Social Media Buttons. 
+
+Improvement / Changes / Adding in Scrapy - Spiders - Django Backend. 
+
+Create Sponsered Jobs spider once Approve for Indeed Publishers Program. 
+Create Spiders - State Wise for i.e Gujarat, Maharashtra etc. 
+Add Django Tags. 
+
+
+Create Logo,
+Create Background Image,
+Create 10 Blog Posts Related to Job, Career, Interview Tips etc...
+Create Social Media Pages in Facebook, Twitter, Linkedin. etc. 
+
+
+
+
+
+
+
