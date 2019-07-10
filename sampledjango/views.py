@@ -1,3 +1,4 @@
+from django.db.models import Count
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView
@@ -21,7 +22,8 @@ class HomeListView(FilterView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(HomeListView, self).get_context_data()
         context.update({
-            'total_jobs': IndeedJobs.objects.all(),
+            'total_jobs': IndeedJobs.objects.values('title').distinct().count(),
+            'total_companies': IndeedJobs.objects.values('company').distinct().count(),
             'by_location': IndeedJobs.objects.filter(city__icontains=IndeedJobs.city),
             'filter': JobFilter(self.request.GET, queryset=self.get_queryset()),
 
@@ -42,6 +44,8 @@ class IndexView(ListView):
         context = super(IndexView, self).get_context_data()
         context.update({
             'total_jobs': IndeedJobs.objects.all(),
+
+
         }
         )
         return context
