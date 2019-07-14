@@ -8,7 +8,7 @@
 <!-- Intro Banner
 ================================================== -->
 <!-- add class "disable-gradient" to enable consistent background overlay -->
-<div class="intro-banner" data-background-image="images/home-background.jpg">
+<div class="intro-banner" data-background-image="images/home-background.jpg" xmlns="http://www.w3.org/1999/html">
 	<div class="container">
 		
 		<!-- Intro Headline -->
@@ -27,28 +27,26 @@
 		<!-- Search Bar -->
 		<div class="row">
 			<div class="col-md-12">
-				<div class="intro-banner-search-form margin-top-95">
+				<form class="intro-banner-search-form margin-top-95" method="get" action="{% url 'joblist' %}">
 
 					<!-- Search Field -->
 					<div class="intro-search-field">
 						<label for ="intro-keywords" class="field-title ripple-effect">What job you want?</label>
-						<input id="intro-keywords" type="text" placeholder="Job Title or Keywords">
+                        {% render_field filter.form.title class="form-control" placeholder="Job Title" %}
 					</div>
 
 					<!-- Search Field -->
 					<div class="intro-search-field">
-						<label for ="intro-keywords" class="field-title ripple-effect">What job you want?</label>
-						<input id="intro-keywords" type="text" placeholder="Job Title or Keywords">
+						<label for ="intro-keywords" class="field-title ripple-effect">Where?</label>
+                        {% render_field filter.form.city class="form-control" placeholder="Location"%}
 					</div>
 
-{#					{% render_field filter.form.title class="form-control" placeholder="Job Title" %}#}
-{#					{% render_field filter.form.city class="form-control" placeholder="Location"%}#}
 
 					<!-- Button -->
 					<div class="intro-search-button">
-						<button class="button ripple-effect" onclick="window.location.href='#'">Search</button>
+						<button class="button ripple-effect">Search</button>
 					</div>
-				</div>
+				</form>
 			</div>
 		</div>
 
@@ -57,17 +55,14 @@
 			<div class="col-md-12">
 				<ul class="intro-stats margin-top-45 hide-under-992px">
 					<li>
-						<strong class="counter">{{ total_jobs | intcomma }}</strong>
+						<strong class="counter">{{ total_jobs.count | intcomma }}</strong>
 						<span>Jobs Posted</span>
 					</li>
 					<li>
 						<strong class="counter">{{ total_companies | intcomma }}</strong>
 						<span>Companies</span>
 					</li>
-					<li>
-						<strong class="counter">1,232</strong>
-						<span>Freelancers</span>
-					</li>
+
 				</ul>
 			</div>
 		</div>

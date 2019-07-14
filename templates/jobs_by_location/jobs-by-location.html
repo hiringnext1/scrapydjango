@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+
+{% block content %}
+
+    <!-- Popular Job Categories -->
+<div class="section margin-top-65 margin-bottom-30">
+	<div class="container">
+		<div class="row">
+
+			<!-- Section Headline -->
+			<div class="col-xl-12">
+				<div class="section-headline centered margin-top-0 margin-bottom-45">
+					<h3>Jobs By Location</h3>
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="{% url 'jobs-in-ahmedabad' %}" class="photo-box small" data-background-image="images/job-category-01.jpg">
+					<div class="photo-box-content">
+						<h3>Jobs in Ahmedabad</h3>
+						<span>{{ jobs_ahm.count }}</span>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="{% url 'jobs-in-vadodara' %}" class="photo-box small" data-background-image="images/job-category-02.jpg">
+					<div class="photo-box-content">
+						<h3>Jobs in Vadodara</h3>
+						<span>{{ jobs_vadodara.count }}</span>
+					</div>
+				</a>
+			</div>
+
+            <div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="{% url 'jobs-in-surat' %}" class="photo-box small" data-background-image="images/job-category-04.jpg">
+					<div class="photo-box-content">
+						<h3>Jobs in Surat</h3>
+						<span>{{ jobs_surat.count }}</span>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="{% url 'jobs-in-bharuch' %}" class="photo-box small" data-background-image="images/job-category-03.jpg">
+					<div class="photo-box-content">
+						<h3>Jobs in Bharuch</h3>
+						<span>{{ jobs_bharuch.count }}</span>
+					</div>
+				</a>
+			</div>
+
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-list-layout-1.html" class="photo-box small" data-background-image="images/job-category-05.jpg">
+					<div class="photo-box-content">
+						<h3>Jobs in Rajkot</h3>
+						<span></span>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-list-layout-full-page-map.html" class="photo-box small" data-background-image="images/job-category-06.jpg">
+					<div class="photo-box-content">
+						<h3>Jobs in Ankleshwar</h3>
+						<span></span>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="jobs-grid-layout-full-page.html" class="photo-box small" data-background-image="images/job-category-07.jpg">
+					<div class="photo-box-content">
+						<h3>Jobs in Vapi</h3>
+						<span></span>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-xl-3 col-md-6">
+				<!-- Photo Box -->
+				<a href="../jobs-list-layout-2.html" class="photo-box small" data-background-image="images/job-category-08.jpg">
+					<div class="photo-box-content">
+						<h3>Jobs in Gandhinagar</h3>
+						<span></span>
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- Features Cities / End -->
+
+
+{% endblock %}
