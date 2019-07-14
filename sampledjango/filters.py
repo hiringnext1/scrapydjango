@@ -1,6 +1,5 @@
 from .models import IndeedJobs
 import django_filters
-from dal import autocomplete
 
 
 class JobFilter(django_filters.FilterSet):

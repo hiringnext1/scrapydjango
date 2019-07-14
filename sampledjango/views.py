@@ -32,7 +32,6 @@ class IndexView(FilterView):
     filterset_class = JobFilter
     context_object_name = 'indeed'
     paginate_by = 20
-    queryset = IndeedJobs.objects.all()
     ordering = 'pk'
 
     def get_context_data(self, *, object_list=None, **kwargs):

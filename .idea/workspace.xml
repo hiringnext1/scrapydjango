@@ -2,20 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20fe15a-34c8-4964-8648-0117b53fd2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/jobs_by_categories/jobs-by-categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-ahm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-bharuch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-surat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-vadodara.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scrapydjango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scrapydjango.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indeed_scrapy/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/indeed_scrapy/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampledjango/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampledjango/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampledjango/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampledjango/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sampledjango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampledjango/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sampledjango/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampledjango/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapydjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapydjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapydjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapydjango/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/new_theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/new_theme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/sampledjango/indeedjobs_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sampledjango/indeedjobs_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/browse-companies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-bookmarks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-manage-bidders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-manage-candidates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-manage-jobs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-manage-tasks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-messages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-my-active-bids.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-post-a-job.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-post-a-task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-reviews.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/freelancers-grid-layout-full-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/freelancers-grid-layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/freelancers-list-layout-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/freelancers-list-layout-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/index-logged-out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-grid-layout-full-page-map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-grid-layout-full-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-grid-layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-list-layout-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-list-layout-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-list-layout-full-page-map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-blog-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-checkout-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-icons-cheatsheet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-invoice-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-order-confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-pricing-plans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-user-interface-elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/single-company-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/single-freelancer-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/single-job-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/single-task-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/tasks-grid-layout-full-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/tasks-grid-layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/tasks-list-layout-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/tasks-list-layout-2.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,43 +129,42 @@
     <favorites_list name="scrapydjango_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/jobs_by_categories/jobs-by-categories.html">
+        <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-ahm.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sampledjango/filters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="144" column="93" lean-forward="true" selection-start-line="144" selection-start-column="93" selection-end-line="144" selection-end-column="93" />
+            <state relative-caret-position="180">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <element signature="e#1854#2747#0#HTML" />
-                <element signature="e#3108#4092#0#HTML" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/sampledjango/indeedjobs_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="99">
+              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
+            <state relative-caret-position="270">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -122,7 +172,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapydjango/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="486">
               <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="e#636#668#0" expanded="true" />
@@ -185,30 +235,33 @@
         <option value="$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html" />
         <option value="$PROJECT_DIR$/templates/search/search.html" />
         <option value="$PROJECT_DIR$/templates/search/indexes/sampledjango/note_text.txt" />
-        <option value="$PROJECT_DIR$/sampledjango/filters.py" />
         <option value="$PROJECT_DIR$/templates/test_page.html" />
         <option value="$PROJECT_DIR$/sampledjango/search_indexes.py" />
         <option value="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" />
         <option value="$PROJECT_DIR$/templates/new/index.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/scrapydjango/settings.py" />
         <option value="$PROJECT_DIR$/templates/new_theme/index.html" />
-        <option value="$PROJECT_DIR$/templates/sampledjango/indeedjobs_list.html" />
         <option value="$PROJECT_DIR$/templates/Jobs_by_Location/jobs-by-location-ahm.html" />
         <option value="$PROJECT_DIR$/templates/Jobs_by_Location/jobs-by-location-vadodara.html" />
         <option value="$PROJECT_DIR$/templates/Jobs_by_Location/jobs-by-location-bharuch-ankleshwar.html" />
         <option value="$PROJECT_DIR$/sampledjango/models.py" />
         <option value="$PROJECT_DIR$/templates/Jobs_by_Location/jobs-by-location-surat.html" />
         <option value="$PROJECT_DIR$/templates/jobs-by-location.html" />
-        <option value="$PROJECT_DIR$/sampledjango/views.py" />
         <option value="$PROJECT_DIR$/scrapydjango/urls.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/jobs_by_categories/jobs-by-categories.html" />
         <option value="$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-ahm.html" />
+        <option value="$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-bharuch.html" />
+        <option value="$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-vadodara.html" />
+        <option value="$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-surat.html" />
+        <option value="$PROJECT_DIR$/sampledjango/filters.py" />
+        <option value="$PROJECT_DIR$/sampledjango/views.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/sampledjango/indeedjobs_list.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="683" />
     <option name="height" value="741" />
@@ -234,18 +287,7 @@
             <path>
               <item name="scrapydjango_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrapydjango_test" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapydjango" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapydjango_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapydjango_test" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapydjango_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapydjango_test" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs_by_location" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,12 +412,16 @@
       <workItem from="1563078296066" duration="1716000" />
       <workItem from="1563080173490" duration="1759000" />
       <workItem from="1563082012558" duration="1743000" />
-      <workItem from="1563083852321" duration="903000" />
+      <workItem from="1563083852321" duration="1716000" />
+      <workItem from="1563088887648" duration="333000" />
+      <workItem from="1563091337499" duration="45000" />
+      <workItem from="1563091464058" duration="36000" />
+      <workItem from="1563109793445" duration="563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139161000" />
+    <option name="totallyTimeSpent" value="140951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -385,7 +431,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3272727" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21983472" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30413222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,16 +672,6 @@
     <entry file="file://$PROJECT_DIR$/sampledjango/search_indexes.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampledjango/filters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/test_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -647,13 +683,6 @@
     <entry file="file://$PROJECT_DIR$/templates/new/index.html" />
     <entry file="file://$PROJECT_DIR$/static/new_theme/css/colors/red.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapydjango/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,20 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-vadodara.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="160" column="43" selection-start-line="160" selection-start-column="43" selection-end-line="160" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sampledjango/indeedjobs_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sampledjango/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -703,56 +718,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-surat.html">
+    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-vadodara.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="160" column="40" selection-start-line="160" selection-start-column="40" selection-end-line="160" selection-end-column="40" />
-          <folding>
-            <element signature="e#376#4112#0#HTML" />
-            <element signature="e#4171#4676#0#HTML" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location.html">
+    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-surat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="224">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-bharuch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="160" column="45" selection-start-line="160" selection-start-column="45" selection-end-line="160" selection-end-column="45" />
-          <folding>
-            <element signature="e#376#4112#0#HTML" />
-            <element signature="e#4171#4676#0#HTML" />
-          </folding>
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapydjango/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-ahm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="e#636#668#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="142" column="87" lean-forward="true" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="486">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -763,14 +760,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location-ahm.html">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="144" column="93" lean-forward="true" selection-start-line="144" selection-start-column="93" selection-end-line="144" selection-end-column="93" />
+        <state relative-caret-position="222">
+          <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapydjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
-            <element signature="e#1854#2747#0#HTML" />
-            <element signature="e#3108#4092#0#HTML" />
+            <element signature="e#636#668#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampledjango/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sampledjango/indeedjobs_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
