@@ -31,6 +31,8 @@ urlpatterns = [
                   path('jobs-in-bharuch', JobsByBharuch.as_view(), name='jobs-in-bharuch'),
                   path('jobs-in-surat', JobsBySurat.as_view(), name='jobs-in-surat'),
                   path('job/<slug>/', IndexDetailView.as_view(), name='detail'),
+                  path('', include('static_sitemaps.urls')),
+                  # path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap')
 
                   path(r'tinymce/', include('tinymce.urls')),
               ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

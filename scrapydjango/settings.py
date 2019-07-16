@@ -24,7 +24,7 @@ SECRET_KEY = 'scf4)=fde*6h)o!ln3#--z-t#@8$-4xq1aa%_x_n_%0xy9m_+-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['scrapyindeed.herokuapp.com', '*']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -37,16 +37,23 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 
     'scrapy_djangoitem',
     'django_filters',
     'bootstrap_pagination',
     'crispy_forms',
     'widget_tweaks',
+    'static_sitemaps',
     'tinymce',
     'sampledjango',
 
 ]
+
+SITE_ID = 1
+
+STATICSITEMAPS_ROOT_SITEMAP = 'scrapydjango.sitemaps.sitemaps'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -60,6 +67,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'scrapydjango.urls'
 
@@ -150,6 +158,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root', )
 
 #  Add configuration for static files storage using whitenoise
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
 
 import dj_database_url
 

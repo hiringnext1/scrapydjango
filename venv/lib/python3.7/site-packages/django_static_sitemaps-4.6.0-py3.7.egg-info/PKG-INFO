@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: django-static-sitemaps
+Version: 4.6.0
+Summary: Tool for generating sitemaps as static files
+Home-page: http://github.com/xaralis/django-static-sitemaps
+Author: Filip Varecha
+Author-email: xaralis@centrum.cz
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
