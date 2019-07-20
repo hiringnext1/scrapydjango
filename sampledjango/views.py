@@ -18,8 +18,13 @@ class HomeListView(FilterView):
         context.update({
             'total_jobs': IndeedJobs.objects.all(),
             'total_companies': IndeedJobs.objects.values('company').distinct().count(),
+            'feature_jobs': IndeedJobs.objects.all().distinct()[:10],
             'by_location': IndeedJobs.objects.filter(city__icontains=IndeedJobs.city),
             'filter': JobFilter(self.request.GET, queryset=self.get_queryset()),
+            'jobs_ahm': IndeedJobs.job_objects.get_queryset_ahm().all(),
+            'jobs_vadodara': IndeedJobs.job_objects.get_queryset_vadodara().all(),
+            'jobs_bharuch': IndeedJobs.job_objects.get_queryset_bharuch().all(),
+            'jobs_surat': IndeedJobs.job_objects.get_queryset_surat().all(),
 
         }
         )

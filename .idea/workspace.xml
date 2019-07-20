@@ -2,31 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20fe15a-34c8-4964-8648-0117b53fd2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_static_sitemaps-4.6.0-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_static_sitemaps-4.6.0-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_static_sitemaps-4.6.0-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_static_sitemaps-4.6.0-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_static_sitemaps-4.6.0-py3.7.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_static_sitemaps-4.6.0-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/management/commands/refresh_sitemap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/templates/static_sitemaps/sitemap_index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/static_sitemaps/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to-do.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scrapydjango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scrapydjango.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indeed_scrapy/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/indeed_scrapy/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampledjango/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampledjango/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampledjango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampledjango/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sampledjango/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampledjango/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapydjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapydjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapydjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapydjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapyindeed" beforeDir="false" afterPath="$PROJECT_DIR$/scrapyindeed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapyindeed/indeed_scrapy/indeed_scrapy/spiders/indeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapyindeed/indeed_scrapy/indeed_scrapy/spiders/indeed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new_theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/new_theme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sampledjango/indeedjobs_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/browse-companies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-bookmarks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-manage-bidders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-manage-candidates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-manage-jobs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-manage-tasks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-messages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-my-active-bids.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-post-a-job.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-post-a-task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-reviews.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/freelancers-grid-layout-full-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/freelancers-grid-layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/freelancers-list-layout-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/freelancers-list-layout-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/index-logged-out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-grid-layout-full-page-map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-grid-layout-full-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-grid-layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-list-layout-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-list-layout-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/jobs-list-layout-full-page-map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-blog-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-checkout-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-icons-cheatsheet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-invoice-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-order-confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-pricing-plans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/pages-user-interface-elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/single-company-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/single-freelancer-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/single-job-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/single-task-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/tasks-grid-layout-full-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/tasks-grid-layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/tasks-list-layout-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unused/tasks-list-layout-2.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +131,39 @@
     <favorites_list name="scrapydjango_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/to-do.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/new_theme/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="209" column="50" selection-start-line="209" selection-start-column="50" selection-end-line="209" selection-end-column="50" />
+              <folding>
+                <element signature="e#796#1649#0#HTML" />
+                <element signature="e#1670#2051#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,18 +176,19 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>search</find>
-      <find>feature</find>
       <find>lac</find>
       <find>brows</find>
-      <find>browse</find>
       <find>index</find>
       <find>middl</find>
       <find>middle</find>
       <find>downloader</find>
       <find>block</find>
+      <find>browse</find>
+      <find>feature</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -146,7 +221,6 @@
         <option value="$PROJECT_DIR$/templates/test_page.html" />
         <option value="$PROJECT_DIR$/sampledjango/search_indexes.py" />
         <option value="$PROJECT_DIR$/templates/new/index.html" />
-        <option value="$PROJECT_DIR$/templates/new_theme/index.html" />
         <option value="$PROJECT_DIR$/templates/Jobs_by_Location/jobs-by-location-ahm.html" />
         <option value="$PROJECT_DIR$/templates/Jobs_by_Location/jobs-by-location-vadodara.html" />
         <option value="$PROJECT_DIR$/templates/Jobs_by_Location/jobs-by-location-bharuch-ankleshwar.html" />
@@ -165,12 +239,14 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/scrapydjango/urls.py" />
         <option value="$PROJECT_DIR$/scrapydjango/settings.py" />
-        <option value="$PROJECT_DIR$/sampledjango/views.py" />
         <option value="$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/spiders/indeed.py" />
+        <option value="$PROJECT_DIR$/to-do.txt" />
+        <option value="$PROJECT_DIR$/sampledjango/views.py" />
+        <option value="$PROJECT_DIR$/templates/new_theme/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="27" />
     <option name="width" value="683" />
     <option name="height" value="741" />
@@ -192,7 +268,7 @@
             <path>
               <item name="scrapydjango_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrapydjango_test" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapydjango" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,8 +284,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/jobs_by_categories" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -323,27 +400,47 @@
       <workItem from="1563109793445" duration="1769000" />
       <workItem from="1563282074849" duration="304000" />
       <workItem from="1563283069855" duration="1257000" />
-      <workItem from="1563284379748" duration="4560000" />
+      <workItem from="1563284379748" duration="5161000" />
+      <workItem from="1563432232166" duration="1618000" />
+      <workItem from="1563637085150" duration="4170000" />
     </task>
+    <task id="LOCAL-00001" summary="project update">
+      <created>1563298857362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563298857362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148278000" />
+    <option name="totallyTimeSpent" value="154667000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16515152" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1659091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3272727" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30413222" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30413222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Favorites" order="9" weight="0.3289256" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3272727" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" weight="0.31570247" />
@@ -386,8 +483,51 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project update" />
+    <option name="LAST_COMMIT_MESSAGE" value="project update" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/indeed_scrapy-master/indeed_scrapy/spiders/indeed.py" />
     <entry file="file://$PROJECT_DIR$/indeed_scrapy-master/indeed_scrapy/pipelines.py" />
     <entry file="file://$PROJECT_DIR$/indeedscraper/indeedscraper/pipelines.py" />
     <entry file="file://$PROJECT_DIR$/indeedscraper/indeedscraper/items.py" />
@@ -568,13 +708,6 @@
     <entry file="file://$PROJECT_DIR$/static/new_theme/css/colors/red.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/new_theme/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="105" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sampledjango/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -603,13 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -678,23 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapydjango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="e#636#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/indeed_scrapy/indeed_scrapy/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -721,6 +830,51 @@
           <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="e#24#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jobs_by_location/jobs-by-location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="104" column="30" lean-forward="true" selection-start-line="7" selection-end-line="104" selection-end-column="30" />
+          <folding>
+            <element signature="e#105#2891#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapydjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/to-do.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampledjango/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/new_theme/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="209" column="50" selection-start-line="209" selection-start-column="50" selection-end-line="209" selection-end-column="50" />
+          <folding>
+            <element signature="e#796#1649#0#HTML" />
+            <element signature="e#1670#2051#0#HTML" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,75 @@
+Home Page:
+
+1.       Add Jobs by Location - Done
+
+2.       Add Jobs by Categories - Done
+
+3.       Change Layout of Feature Jobs -
+
+4.       Add in Last "Indeed.co.in"
+
+
+Footer:
+
+1.       Popular Categories
+
+2.       Popular City
+
+3.       Helpful Links
+
+a.       Contact
+
+b.       Privacy Policy
+
+c.       Terms of Use
+
+4.       Activate News Letter
+
+5.       Activate Social Media Button
+
+6.       Add Indeed Jobs Logo
+
+
+
+Job Lists Page:
+
+
+1.       Reformat Search Sidebar - Add Button
+
+2.       Total Jobs Count in on the Top of Job List Page
+
+3.       Reformat Pagination
+
+4.       If Search then display Search Query with no. of Jobs Display
+
+
+
+Jobs By Location Page:
+
+1.       Add All Location
+
+
+Jobs by Categories:
+
+1.       Add All Job Categories
+
+
+About Us:
+
+1.       Add How to find jobs process
+
+2.       Add Aggregating Website Lists (Indeed)
+
+3.       Others will update later.
+
+
+
+Contact Us:
+
+1.       Activate form
+
+·         Add Job Sitemaps
+
+·         Add Robots.txt
+
+·         Add Keywords, Meta Content in HTML tag.
