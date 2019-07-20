@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'bootstrap_pagination',
     'crispy_forms',
     'widget_tweaks',
-    'static_sitemaps',
     'tinymce',
     'sampledjango',
 
