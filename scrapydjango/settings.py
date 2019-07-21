@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     'scrapy_djangoitem',
     'django_filters',
+    'static_sitemaps',
     'bootstrap_pagination',
     'crispy_forms',
     'widget_tweaks',
