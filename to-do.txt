@@ -4,9 +4,7 @@ Home Page:
 
 2.       Add Jobs by Categories - Done
 
-3.       Change Layout of Feature Jobs -
-
-4.       Add in Last "Indeed.co.in"
+3.       Change Layout of Feature Jobs - Done
 
 
 Footer:
@@ -29,6 +27,7 @@ c.       Terms of Use
 
 6.       Add Indeed Jobs Logo
 
+7.       Add in Last "Indeed.co.in"
 
 
 Job Lists Page:
